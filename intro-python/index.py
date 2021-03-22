@@ -58,3 +58,10 @@ print(Lista)
 #copiamos la lista1 con la lista 2
 Lista_2 = Lista.copy()
 print(Lista_2)
+
+#contar el total de una lista
+TotalDeElementoList = len(Lista)
+print(TotalDeElementoList);
+
+#contamos cuantos elementos se repiten en una lista
+print(Lista_2.count(2));
