@@ -64,4 +64,30 @@ TotalDeElementoList = len(Lista)
 print(TotalDeElementoList);
 
 #contamos cuantos elementos se repiten en una lista
-print(Lista_2.count(2));
+print(Lista_2.count(2))
+
+#Eliminar el ultimo elemento de la lita con el metodo pop
+Lista.pop()
+print(Lista)
+
+#Eliminar un elemento en especifico
+Lista_2.remove(2)
+print(Lista_2)
+
+#Ordenar elementos de una lista DESC
+Lista.reverse()
+print(Lista)
+
+#Ordenar lista siempre encuando tengan el mismo tipo de dato
+Lista.sort()
+print(Lista)
+
+#Utilizando Tupla, las tuplas no son dinamicas
+Tuplas = ('Hola','Mundo','Estoy','Aprendiendo','Paython')
+print(Tuplas[0])
+
+#para hacer dinamica mi lista tuplas, debo de convertirla a tipo de lista
+ListaTuplas = list(Tuplas)
+ListaTuplas.append("Ahora ya soy Dinamica")
+print(ListaTuplas)
+
