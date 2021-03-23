@@ -91,3 +91,19 @@ ListaTuplas = list(Tuplas)
 ListaTuplas.append("Ahora ya soy Dinamica")
 print(ListaTuplas)
 
+Rango = range(6)
+print(Rango)
+
+
+#Utilizando Diccionario
+Diccionario = {
+    "nombre": "Solitario",
+    "apellido": "Avalos",
+    "edad": 24
+}
+print(Diccionario)
+print(Diccionario['nombre'])
+
+Diccionario['nombre'] = "Lobo"
+
+print(Diccionario)
