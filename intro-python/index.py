@@ -107,3 +107,12 @@ print(Diccionario['nombre'])
 Diccionario['nombre'] = "Lobo"
 
 print(Diccionario)
+
+
+#add una nuevo atributo en el diccionario
+Diccionario['ano'] = 2021
+print(Diccionario)
+
+#eliminar un atributo del diccionario
+Diccionario.pop('ano')
+print(Diccionario)
