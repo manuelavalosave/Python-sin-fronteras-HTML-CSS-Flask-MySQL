@@ -1,7 +1,8 @@
 class Usuario:
-    nombre = "Solitario"
-    apellido = "Avalos"
+    def __init__(self, nombre, apellido):
+        self.nombre = nombre
+        self.apellido = apellido
 
-usuario = Usuario()
+usuario = Usuario('Solitario','Avalos')
 
 print(usuario.nombre, usuario.apellido)
